@@ -118,7 +118,7 @@ class SDFusionDestroyHandler(adsk.core.CommandEventHandler):
                         names = []
                         progressDialog0 = exporter.app.userInterface.createProgressDialog()
                         progressDialog0.isBackgroundTranslucent = False
-                        progressDialog0.show("SDFusion", 'Processing rigid groups: %v/%m', 0, len(allRigidGroups), 1)
+                        #progressDialog0.show("SDFusion", 'Processing rigid groups: %v/%m', 0, len(allRigidGroups), 1)
 
                         for rig in allRigidGroups:
                             progressDialog0.progressValue += 1
